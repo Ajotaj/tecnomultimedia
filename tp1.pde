@@ -1,0 +1,43 @@
+void setup(){
+size(529,529);
+background(0);
+}
+void draw(){
+  noStroke();
+  //amarillo
+  fill(255,255,0);
+  quad(161,230,276,276,391,230,276,69);
+  //azul
+  fill(0,0,255);
+  quad(161,230,276,276,276,391,69,391);
+  //rojo
+  fill(255,0,0);
+  quad(276,391,276,276,391,230,483,391);
+  //violeta
+  fill(255,0,255);
+  triangle(483,391,276,483,69,391);
+  //verde
+  fill(0,255,0);
+  triangle(69,391,69,161,276,69);
+  //naranja
+  fill(255,112,0);
+  triangle(276,69,483,161,483,391);
+  //amarillo-verde
+  fill(198,206,0);
+  triangle(69,69,69,161,276,69);
+  //amarillo-naranja
+  fill(251,186,0);
+  triangle(276,69,483,161,483,69);
+  //rojo-violeta
+  fill(146,43,62);
+  triangle(483,391,483,483,276,483);
+  //azul-violeta
+  fill(76,40,130);
+  triangle(276,483,69,483,69,391);
+  //azul-verde
+  fill(0,156,140);
+  triangle(69,161,69,391,-69,276);
+  //rojo-naranja
+  fill(255,64,0);
+  triangle(483,161,483,391,575,276);
+}
