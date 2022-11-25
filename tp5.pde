@@ -1,6 +1,41 @@
 ////Elias Robles
 ////Tecno comision 3 - tp5.
 ////link youtube:https://youtu.be/9ZH0zDTvVPw
+/*
+Profe esto es guion que me arme para el video por si no se entiende lo que digo, porque no se por que todos los intentos que hice de grabar salian
+con el auidio raro, espero q este se entienda si no use mi guion a modo de subtitulos, perdone y gracias.
+
+Hola profe 
+Soy Elías 
+Esta es mí estrega del tp 5 q hice con mis compás Abel y Pablo
+
+Es una aventura gráfica que trata de como en un apocalipsis zombie tenés que buscar recursos médicos en un hospital 
+
+Para armar el código separamos en pestañas todas clases para armar el juego
+
+Las voy mostrando:
+.Creditos
+.Hospital(donde están las escenas del juego)
+.Introducción 
+
+. la pestaña de juego donde se encuentran todos los constructores de las distintas clases y los cambios de estado 
+
+.pantalla de inicio
+.Acciones de los pasos de escenas 
+.Un shooter que hay en una parte del juego 
+.Y el array del objeto zombie q usamos en la pantalla de mover del juego 
+
+
+/Básicamente separamos en clases todos los componentes del juego 
+/Usando logica se estados separamos las escenas 
+/Y para los botones usamos colisiones (también para interactuar con los zombies)
+
+/Usamos la librería mínim para cargar sonido 
+
+/Usamos arreglos para los textos y la carga de imágenes y como dije antes para el objeto zombie 
+
+Pruebo el juego y le muestro cómo se puede reiniciar  
+*/
 
 import ddf.minim.*;
 import ddf.minim.analysis.*;
